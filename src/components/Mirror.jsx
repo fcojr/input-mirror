@@ -13,9 +13,9 @@ class Mirror extends Component{
 	render(){
 		return(
 			<div>
-				<Header title="A Simple SetStage App" />
+				<Header title="Input Mirror" />
 				<div className="content">
-					<textarea rows="4" onChange={this.handleChange} value={this.state.value} />
+					<textarea rows="4" onChange={this.handleChange} placeholder={this.state.value} />
 					<p>{this.state.value}</p>
 				</div>
 				<Footer name="input-mirror" host="GitHub" />
