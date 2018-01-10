@@ -1,8 +1,7 @@
 import React from 'react'
 import logo from '../logo.svg'
 import '../App.css';
-
-const Header = (props) =>{
+export default (props) =>{
 	return (
 		<div className="Header">
 			<header className="App-header">
@@ -12,4 +11,3 @@ const Header = (props) =>{
 		</div>
 	)
 }
-export default Header
